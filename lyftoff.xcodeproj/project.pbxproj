@@ -17,6 +17,8 @@
 		950E5BF32109B7BE0085E5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950E5BF12109B7BE0085E5D1 /* LaunchScreen.storyboard */; };
 		950E5BFE2109B7BE0085E5D1 /* lyftoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E5BFD2109B7BE0085E5D1 /* lyftoffTests.swift */; };
 		950E5C092109B7BE0085E5D1 /* lyftoffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E5C082109B7BE0085E5D1 /* lyftoffUITests.swift */; };
+		952F86A6210A0DD100A57AE9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952F86A4210A0DD100A57AE9 /* Explosion.sks */; };
+		952F86A7210A0DD100A57AE9 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952F86A5210A0DD100A57AE9 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		950E5C042109B7BE0085E5D1 /* lyftoffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lyftoffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		950E5C082109B7BE0085E5D1 /* lyftoffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyftoffUITests.swift; sourceTree = "<group>"; };
 		950E5C0A2109B7BE0085E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952F86A4210A0DD100A57AE9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		952F86A5210A0DD100A57AE9 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				950E5BE22109B7BD0085E5D1 /* AppDelegate.swift */,
 				950E5BE42109B7BD0085E5D1 /* GameScene.sks */,
 				950E5BE62109B7BD0085E5D1 /* Actions.sks */,
+				952F86A4210A0DD100A57AE9 /* Explosion.sks */,
+				952F86A5210A0DD100A57AE9 /* Starfield.sks */,
 				950E5BE82109B7BD0085E5D1 /* GameScene.swift */,
 				950E5BEA2109B7BD0085E5D1 /* GameViewController.swift */,
 				950E5BEC2109B7BD0085E5D1 /* Main.storyboard */,
@@ -238,11 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952F86A7210A0DD100A57AE9 /* Starfield.sks in Resources */,
 				950E5BEE2109B7BD0085E5D1 /* Main.storyboard in Resources */,
 				950E5BE52109B7BD0085E5D1 /* GameScene.sks in Resources */,
 				950E5BF02109B7BE0085E5D1 /* Assets.xcassets in Resources */,
 				950E5BF32109B7BE0085E5D1 /* LaunchScreen.storyboard in Resources */,
 				950E5BE72109B7BD0085E5D1 /* Actions.sks in Resources */,
+				952F86A6210A0DD100A57AE9 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
